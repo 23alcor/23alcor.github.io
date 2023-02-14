@@ -1,4 +1,7 @@
 body {
 	background-color: #100e17;
-	background: ;
+}
+
+.banner {
+	background-image: url("hotelfront.jpeg");
 }
