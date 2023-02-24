@@ -27,6 +27,16 @@ body{
     margin-top: -50px;
     z-index: 2;
 }
+
+.car_name {
+    position: relative;
+    text-align: left;
+}
+
+.car_description {
+    position: relative;
+    text-align: left;
+}
  
 .inner-container{
     text-align: center;
