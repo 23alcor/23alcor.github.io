@@ -56,7 +56,7 @@ body{
 
 .car_image1 {
     position: absolute;
-    top: 50px;
+    top: 70px;
     right: 20px;
     max-width: 50%;
     max-height: 400px;
@@ -65,11 +65,12 @@ body{
 }
 
 .vehicle_stats_container {
-    position: relative;
+    position: absolute;
     background-color: red;
-    max-width: 50%;
-    max-height: 200px;
-    top: 0px;
+    height: 100%;
+    width: 45%;
+    top: 450px;
+    z-index: 4;
 }
 
 .car_stats_title {
@@ -82,24 +83,28 @@ body{
     position: absolute;
     color: white;
     padding: 20px;
+    top: 20px;
 }
 
 .car_acceleration {
     position: absolute;
     color: white;
     padding: 20px;
+    top: 40px;
 }
 
 .car_braking {
     position: absolute;
     color: white;
     padding: 20px;
+    top: 60px;
 }
 
 .car_traction {
     position: absolute;
     color: white;
     padding: 20px;
+    top: 80px;
 }
 
 
