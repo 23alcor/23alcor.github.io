@@ -54,6 +54,13 @@ body{
     padding: 20px;
 }
 
+.container_images {
+    position: relative;
+    background-color: red;
+    width: 50%;
+    top: 50px;
+}
+
 .car_image1 {
     position: absolute;
     top: 70px;
@@ -64,10 +71,20 @@ body{
     height: auto;
 }
 
+.car_image2 {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    max-width: 25%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
 .vehicle_stats_container {
     position: absolute;
     background-color: red;
-    height: 100%;
+    height: 125px;
     width: 45%;
     top: 450px;
     z-index: 4;
