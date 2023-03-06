@@ -58,27 +58,40 @@ body{
     position: relative;
     background-color: red;
     width: 50%;
+    height: 350px;
     top: 50px;
 }
 
 .car_image1 {
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    max-width: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
     max-height: 400px;
     width: auto;
     height: auto;
 }
 
+.container_images_sides {
+    position: relative;
+}
+
 .car_image2 {
-    position: absolute;
-    top: 25%;
-    right: 20px;
-    max-width: 25%;
+    position: relative;
+    max-width: 45%;
     max-height: 400px;
     width: auto;
     height: auto;
+    padding-top: 15px;
+}
+
+.car_image3 {
+    position: relative;
+    max-width: 45%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    padding: 15px;
 }
 
 .vehicle_stats_container {
