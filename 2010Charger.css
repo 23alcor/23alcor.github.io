@@ -7,6 +7,10 @@ body{
     width: 100%;
 	background-color: rgba(86,11,11,255);
 }
+
+h4 {
+    font-size: 30px;
+}
  
 .img-container{
     background-image: url("hotelfront.jpeg");
@@ -32,15 +36,19 @@ body{
     position: relative;
     color: white;
     text-align: left;
-    padding: 20px;
-    padding-top: 20px;
+    padding: 40px;
+    padding-inline: 80px;
+}
+
+.car_description_container {
+    position:;
 }
 
 .car_description {
     position: absolute;
     text-align: left;
     color: white;
-    top: 50px;
+    top: 95px;
     padding: 20px;
     width: 45%;
     max-height: 225px;
@@ -55,11 +63,12 @@ body{
 }
 
 .container_images {
-    position: relative;
-    background-color: red;
+    position: absolute;
     width: 50%;
-    height: 350px;
-    top: 50px;
+    height: 250px;
+    top: 100px;
+    right: 0px;
+    padding: 15px;
 }
 
 .car_image1 {
@@ -78,20 +87,21 @@ body{
 
 .car_image2 {
     position: relative;
-    max-width: 45%;
+    max-width: 49.5%;
     max-height: 400px;
     width: auto;
     height: auto;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .car_image3 {
-    position: relative;
-    max-width: 45%;
+    position: absolute;
+    max-width: 49.5%;
     max-height: 400px;
     width: auto;
     height: auto;
-    padding: 15px;
+    right: 0px;
+    padding-top: 5px;
 }
 
 .vehicle_stats_container {
@@ -99,7 +109,7 @@ body{
     background-color: red;
     height: 125px;
     width: 45%;
-    top: 450px;
+    top: 600px;
     z-index: 4;
 }
 
