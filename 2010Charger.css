@@ -41,25 +41,23 @@ h4 {
 }
 
 .car_description_container {
-    position:;
+    position: absolute;
+    background-color: red;
+    width: 45%;
+    height: auto;
 }
 
 .car_description {
-    position: absolute;
+    position: relative;
     text-align: left;
     color: white;
-    top: 95px;
-    padding: 20px;
-    width: 45%;
-    max-height: 225px;
 }
 
 .color_of_car {
-    position: absolute;
+    position: relative;
     color: white;
     text-align: left;
-    top: 225px;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .container_images {
