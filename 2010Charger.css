@@ -26,8 +26,9 @@ h4 {
 
  
 .img-container{
-    background-image: url("hotelfront.jpeg");
+    background-image: url("hotelfront.png");
     height: 50%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
