@@ -35,7 +35,7 @@ h4 {
     z-index: 1;
     border-bottom-style: solid;
     border-color: rgba(158,17,11,255);
-    border-width: 10px;
+    border-width: 7px;
 }
 
 
@@ -43,11 +43,11 @@ h4 {
     position: relative;
     background-color: rgba(31,1,2,255);
     border-style: solid;
-    border-color: rgba(57,6,7,255);
-    border-width: 5px;
+    border-color: rgba(158,17,11,255);
+    border-width: 2px;
     width: 70%;
     margin: auto;
-    margin-top: -120px;
+    margin-top: -70px;
     z-index: 2;
 }
 
@@ -56,6 +56,7 @@ h4 {
     height: 50px;
     width: 400px;
     left: 0px;
+    top: 20px;
 }
 
 .car_name_logo {
@@ -181,7 +182,7 @@ h4 {
 
 .car_price {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 10px;
     padding: 20px;
     color: white;
