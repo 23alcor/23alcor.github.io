@@ -11,6 +11,19 @@ body{
 h4 {
     font-size: 30px;
 }
+
+.search_bar {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    z-index: 5;
+}
+
+.arrows {
+    position: absolute;
+    left: 0px;
+}
+
  
 .img-container{
     background-image: url("hotelfront.jpeg");
@@ -21,7 +34,7 @@ h4 {
     position: relative;
     z-index: 1;
     border-bottom-style: solid;
-    border-color: rgba(127,18,16,255);
+    border-color: rgba(158,17,11,255);
     border-width: 10px;
 }
 
@@ -41,12 +54,13 @@ h4 {
 .car_name_container {
     position: relative;
     height: 50px;
-    width: 600px;
+    width: 400px;
+    left: 0px;
 }
 
 .car_name_logo {
     position: absolute;
-    left: 20px;
+    left: 0px;
     height: 60px;
     width: auto;
 }
