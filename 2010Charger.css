@@ -12,6 +12,10 @@ h4 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: auto;
+}
+
 .search_bar {
     background-color: white;
     height: 50px;
@@ -144,6 +148,7 @@ h4 {
     height: 125px;
     z-index: 4;
     top: 20px;
+    background-color: pink;
 }
 
 .car_stats_title {
@@ -152,32 +157,98 @@ h4 {
     padding-top: 20px;
 }
 
-.car_speed {
+.car_stats_stats {
     position: absolute;
+    width: 100%;
+    background-color: yellow;
+    top: 25%;
+}
+
+.car_speed_div_div {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 0px;
+    background-color: black;
+}
+
+.car_speed_blank_bar {
+    position: absolute;
+    width: 70%;
+    background-color: red;
+    right: 0px;
+}
+
+.car_speed_div {
+    position: absolute;
+    width: 30%;
+}
+
+.car_speed {
+    position: relative;
     color: white;
-    padding-top: 20px;
+    width: auto;
+    background-color: blue;
+    height: auto;
+    padding: 5px;
+    font-size:1.5vw;
+
+}
+
+.car_acceleration_div_div {
+    position: absolute;
+    width: 100%;
+    height: 20px;
     top: 25px;
+    background-color: black;
+}
+
+.car_acceleration_div {
+    position: absolute;
 }
 
 .car_acceleration {
-    position: absolute;
+    position: relative;
     color: white;
-    padding-top: 20px;
+    width: auto;
+    background-color: blue;
+    height: auto;
+    padding: 5px;
+    font-size:1.5vw;
+}
+
+.car_braking_div_div {
+    position: absolute;
+    width: 100%;
+    height: 20px;
     top: 50px;
+    background-color: black;
+}
+
+.car_braking_div {
+    position: absolute;
 }
 
 .car_braking {
-    position: absolute;
+    position: relative;
     color: white;
-    padding-top: 20px;
+}
+
+.car_traction_div_div {
+    position: absolute;
+    width: 100%;
+    height: 20px;
     top: 75px;
+    background-color: black;
+}
+
+.car_traction_div {
+    position: absolute;
 }
 
 .car_traction {
-    position: absolute;
+    position: relative;
     color: white;
-    padding-top: 20px;
-    top: 100px;
 }
 
 
