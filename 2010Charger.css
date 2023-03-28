@@ -143,114 +143,173 @@ h3 {
     padding-top: 5px;
 }
 
+/* THIS IS THE STATS CONTAINER */
+
 .vehicle_stats_container {
     position: relative;
-    height: 125px;
+    height: 20vw;
     z-index: 4;
     top: 20px;
     background-color: pink;
 }
 
 .car_stats_title {
-    position: absolute;
-    color: white;
-    padding-top: 20px;
-}
-
-.car_stats_stats {
-    position: absolute;
-    width: 100%;
-    background-color: yellow;
-    top: 25%;
-}
-
-.car_speed_div_div {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    top: 0px;
-    background-color: black;
-}
-
-.car_speed_blank_bar {
-    position: absolute;
-    width: 70%;
+    position: relative;
+    left: 0px;
     background-color: red;
-    right: 0px;
+    height: 2.5vw;
+    width: 15vw;
+    font-size: 30px;
+    font-size: 2.5vw;
 }
 
-.car_speed_div {
-    position: absolute;
-    width: 30%;
-}
+/* Speed */
 
-.car_speed {
+.car_stats_speed_container {
     position: relative;
-    color: white;
-    width: auto;
+    left: 0px;
+    background-color: yellow;
+    height: 2.5vw;
+    width: 100%;
+}
+
+.car_stats_speed_speed_container {
+    position: relative;
+    left: 0px;
+    background-color: green;
+    width: 10vw;
+}
+
+.car_stats_speed_bar {
+    position: absolute;
+    right: .8vw;
+    background-color: gray;
+    height: 1vw;
+    width: 60%;
+    z-index: 5;
+    top: .8vw;
+}
+
+.car_stats_speed {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5vw;
+    font-size: 1.5vw;
+    top: .4vw;
+}
+
+/* Braking */
+
+.car_stats_braking_container {
+    position: relative;
+    left: 0px;
     background-color: blue;
-    height: auto;
-    padding: 5px;
-    font-size:1.5vw;
-
-}
-
-.car_acceleration_div_div {
-    position: absolute;
+    height: 2.5vw;
     width: 100%;
-    height: 20px;
-    top: 25px;
-    background-color: black;
 }
 
-.car_acceleration_div {
-    position: absolute;
-}
-
-.car_acceleration {
+.car_stats_braking_braking_container {
     position: relative;
-    color: white;
-    width: auto;
-    background-color: blue;
-    height: auto;
-    padding: 5px;
-    font-size:1.5vw;
+    left: 0px;
+    background-color: green;
+    width: 10vw;
 }
 
-.car_braking_div_div {
+.car_stats_braking_bar {
     position: absolute;
+    right: .8vw;
+    background-color: gray;
+    height: 1vw;
+    width: 60%;
+    z-index: 5;
+    top: .8vw;
+}
+
+.car_stats_braking {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5vw;
+    font-size: 1.5vw;
+    top: .4vw;
+}
+
+/* Acceleration */
+
+.car_stats_acceleration_container {
+    position: relative;
+    left: 0px;
+    background-color: purple;
+    height: 2.5vw;
     width: 100%;
-    height: 20px;
-    top: 50px;
-    background-color: black;
 }
 
-.car_braking_div {
-    position: absolute;
-}
-
-.car_braking {
+.car_stats_acceleration_acceleration_container {
     position: relative;
-    color: white;
+    left: 0px;
+    background-color: green;
+    width: 10vw;
 }
 
-.car_traction_div_div {
+.car_stats_acceleration_bar {
     position: absolute;
+    right: .8vw;
+    background-color: gray;
+    height: 1vw;
+    width: 60%;
+    z-index: 5;
+    top: .8vw;
+}
+
+.car_stats_acceleration {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5vw;
+    font-size: 1.5vw;
+    top: .4vw;
+}
+
+/* Traction */
+
+.car_stats_traction_container {
+    position: relative;
+    left: 0px;
+    background-color: brown;
+    height: 2.5vw;
     width: 100%;
-    height: 20px;
-    top: 75px;
-    background-color: black;
 }
 
-.car_traction_div {
-    position: absolute;
-}
-
-.car_traction {
+.car_stats_traction_traction_container {
     position: relative;
-    color: white;
+    left: 0px;
+    background-color: green;
+    width: 10vw;
 }
 
+.car_stats_traction_bar {
+    position: absolute;
+    right: .8vw;
+    background-color: gray;
+    height: 1vw;
+    width: 60%;
+    z-index: 5;
+    top: .8vw;
+}
+
+.car_stats_traction {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5vw;
+    font-size: 1.5vw;
+    top: .4vw;
+}
+
+
+
+/* PRICE */
 
 .car_price {
     position: absolute;
