@@ -143,6 +143,53 @@ h3 {
     padding-top: 5px;
 }
 
+  color: #fff;
+} 
+
+.bar { 
+  background: gray;
+  position: relative; 
+  height: 1vw;
+  text-align: left
+}
+  position: absolute; 
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.dot { 
+  position: relative;
+  width: 5%;
+  height: 1.5vw;
+  margin-left: 16%;
+  top: -1;
+  background-color: rgba(31,1,2,255);
+ /* background-color: rgba(199,12,127,.8);*/
+  /*display: inline-block; */
+  float:left;
+  z-index: 2;
+}
+
+.bar2 { 
+   background: #ffffff;
+  position: relative; 
+  height: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left
+}
+.dot2 { 
+  position: relative;
+  width: 16%;
+  height: 20px;
+  margin-right: 5%;
+  background: transparent;
+  /*background-color: rgba(99,163,227,1);*/
+  display: inline-block; 
+  z-index: 2;
+}
+
 /* THIS IS THE STATS CONTAINER */
 
 .vehicle_stats_container {
@@ -150,7 +197,6 @@ h3 {
     height: 20vw;
     z-index: 4;
     top: 20px;
-    background-color: pink;
 }
 
 .car_stats_title {
@@ -168,7 +214,6 @@ h3 {
 .car_stats_speed_container {
     position: relative;
     left: 0px;
-    background-color: yellow;
     height: 2.5vw;
     width: 100%;
 }
@@ -180,13 +225,13 @@ h3 {
     width: 10vw;
 }
 
-.car_stats_speed_bar {
+.car_stats_speed_bar_container {
     position: absolute;
     right: .8vw;
-    background-color: gray;
+    background-color: green;
     height: 1vw;
     width: 60%;
-    z-index: 5;
+    z-index: 7;
     top: .8vw;
 }
 
