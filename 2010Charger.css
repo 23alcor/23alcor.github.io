@@ -16,18 +16,161 @@ h3 {
     font-size: auto;
 }
 
+/* Search Bar */
 .search_bar {
-    background-color: white;
-    height: 50px;
+    position: fixed;
+    background-color: rgba(210,208,216,255);
+    height: 40px;
     width: 100%;
     z-index: 5;
 }
 
-.arrows {
-    position: absolute;
-    left: 0px;
+.search_bar_sub {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
 }
 
+.arrows_case {
+    position: relative;
+    left: 5px;
+    width: 80px;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+
+.arrow_left_case {
+    position: absolute;
+    width: 50%;
+    right: 49%;
+    background-color: rgba(242,241,244,255);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.arrow_left {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.arrow_right_case {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    background-color: rgba(178,177,182,255);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.arrow_right {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+}
+
+/* Home Button */
+
+.home_case {
+    position: relative;
+    height: 80%;
+    width: 75px;
+    background-color: rgba(224,224,227,255);
+    left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-inline: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.home_icon {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    left: 25%;
+    top: 12.5%;
+}
+
+/* History */
+
+.history_case {
+    position: relative;
+    height: 80%;
+    width: 75px;
+    background-color: rgba(238,237,240,255);
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-inline: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.clock_icon {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    left: 25%;
+    top: 12.5%;
+}
+
+/* Search Bar Bar */
+
+.search_bar_bar_case {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    background-color: rgba(252,251,252,255);
+    z-index: 8;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-inline: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.search_bar_x {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    right: 0px;
+    background-color: rgba(230,229,232,255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.search_bar_x_icon {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: 25%;
+    top:20%;
+}
+
+/* Legendary Motorsport Banner */
  
 .img-container{
     background-image: url("hotelfront.png");
@@ -73,10 +216,12 @@ h3 {
 
 .car_name {
     position: absolute;
+    font-size: 2.8vw;
     left: 100px;
     color: white;
     top: 0px;
     top: 25%;
+    width: 40vw;
 }
 
 .car_description_container {
