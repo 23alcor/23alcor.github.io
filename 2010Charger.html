@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -62,13 +62,13 @@
 			<div class="vehicle_stats_container">
 				<h3 class="car_stats_title">Vehicle Stats</h3>
 				<div class="car_stats_speed_container">
-					<div class="car_stats_speed_speed_container">
+					<div speed="160mph" class="car_stats_speed_speed_container">
 						<h5 class="car_stats_speed">Speed</h5>
 					</div>
 					<div class="car_stats_speed_bar_container">
 					<div class="box">
 					  <div class="bar">
-					    <div class="progress"></div>
+					    <div class="speed_progress"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
@@ -79,13 +79,13 @@
 					</div>
 				</div>
 				<div class="car_stats_braking_container">
-					<div class="car_stats_braking_braking_container">
-						<h5 class="car_stats_braking">Braking</h5>
+					<div braking="4/10" class="car_stats_braking_braking_container">
+						<h5 class="car_stats_braking">Braking</h5>	
 					</div>
 					<div class="car_stats_speed_bar_container">
 					<div class="box">
-					  <div class="bar">
-					    <div class="progress"></div>
+					  <div progress="40%" class="bar">
+					    <div class="braking_progress"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
@@ -95,14 +95,14 @@
 
 					</div>
 				</div>
-				<div class="car_stats_acceleration_container">
-					<div class="car_stats_acceleration_acceleration_container">
+				<div id="a" class="car_stats_acceleration_container">
+					<div acceleration="0-60 in 7.3s" class="car_stats_acceleration_acceleration_container">
 						<h5 class="car_stats_acceleration">Acceleration</h5>
 					</div>
 					<div class="car_stats_speed_bar_container">
 					<div class="box">
 					  <div class="bar">
-					    <div class="progress"></div>
+					    <div class="acceleration_progress"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
@@ -112,14 +112,14 @@
 
 					</div>
 				</div>
-				<div class="car_stats_traction_container">
-					<div class="car_stats_traction_traction_container">
-						<h5 class="car_stats_traction">Traction</h5>
+				<div id="b" class="car_stats_traction_container">
+					<div traction="4/10" class="car_stats_traction_traction_container">
+						<h5 class="car_stats_traction">Traction</h5>				
 					</div>
 					<div class="car_stats_speed_bar_container">
 					<div class="box">
 					  <div class="bar">
-					    <div class="progress"></div>
+					    <div class="traction_progress"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
 					    <div class="dot"></div>
@@ -132,7 +132,7 @@
 			</div>
 		</div>
 
-		<h2 class="car_price"> $2,000</h2>
+		<h2 class="car_price"> $7,800</h2>
 
 		<div class="container_images">
 			<img src="Car1.jpeg" class="car_image1" alt="Car1">

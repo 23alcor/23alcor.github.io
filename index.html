@@ -1,82 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<style>
-	body {
-	  font-family: "Lato", sans-serif;
-	  background-color: blue;
-	}
-	header {
-		display: flex;
-		color: white;
-	}
-
-	canvas {
-		border: 1px solid black;
-	}
-
-	.mainmaneheader {
-		position: relative;
-		align-items: center;
-	}
-	
-	.sidenav {
-	  height: 100%;
-	  width: 0;
-	  position: fixed;
-	  z-index: 1;
-	  top: 0;
-	  left: 0;
-	  background-color: #111;
-	  overflow-x: hidden;
-	  transition: 0.5s;
-	  padding-top: 60px;
-	}
-	
-	.sidenav a {
-	  padding: 8px 8px 8px 32px;
-	  text-decoration: none;
-	  font-size: 25px;
-	  color: #818181;
-	  display: block;
-	  transition: 0.3s;
-	}
-	
-	.sidenav a:hover {
-	  color: #f1f1f1;
-	}
-	
-	.sidenav .closebtn {
-	  position: absolute;
-	  top: 0;
-	  right: 25px;
-	  font-size: 36px;
-	  margin-left: 50px;
-	}
-
-	 ul {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        text-align: left;
-    }
-
-	 h2 {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
-	
-	@media screen and (max-height: 450px) {
-	  .sidenav {padding-top: 15px;}
-	  .sidenav a {font-size: 18px;}
-	}
-
-</style>
 	
 <head>
 	<title>Ralph's Portfolio</title>
+	<link href="index.css" rel="stylesheet">
 </head>
 
 <header style="padding: 0; margin: 0;">
@@ -98,9 +25,26 @@
   		<a href="#">Contact</a>
 	</div>
 
-	<div>
-		<p style="border-style: solid; margin-inline: 100px; color: white; font-family:monaco;">This is Ralph</p>
+	<div class="center_box">
+		<div class="name_box">
+			<div class="R_box">
+				<img src="R.png" class="R" alt="R Letter">
+			</div>
+			<div class="A_box">
+				<img src="A.png" class="A" alt="A Letter">
+			</div>
+			<div class="L_box">
+				<img src="L.png" class="L" alt="L Letter">
+			</div>
+			<div class="P_box">
+				<img src="P.png" class="P" alt="P Letter">
+			</div>
+			<div class="H_box">
+				<img src="H.png" class="H" alt="H Letter">
+			</div>									
+		</div>
 	</div>
+	
 
 	<script>
 		function openNav() {

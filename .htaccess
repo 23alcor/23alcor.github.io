@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /Users/ralphy/documents/github/23alcor.github.io/.htpassword
+Require valid-user

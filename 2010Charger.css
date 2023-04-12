@@ -389,12 +389,29 @@ h3 {
     height: 2.5vw;
     width: 100%;
     color: white;
+    transition: 5s;
 }
 
 .car_stats_speed_speed_container {
     position: relative;
     left: 0px;
     width: 10vw;
+}
+
+[speed]::after {
+    position: absolute;
+    content: attr(speed);
+    position: absolute;
+    right: -10px;
+    font-size: 1.5vw;
+    top: 18%;
+    opacity: 0;
+    transition: 1s;
+}
+
+[speed]:hover::after {
+    opacity: 100%;
+    right: 0px;
 }
 
 .car_stats_speed_bar_container {
@@ -404,6 +421,15 @@ h3 {
     width: 60%;
     z-index: 7;
     top: .8vw;
+}
+
+.speed_progress { 
+  position: absolute; 
+  height: 100%;
+  transition: width .4s ease-in; 
+  width: 40%;
+  background-color: white;
+  z-index: 1;
 }
 
 .car_stats_speed {
@@ -429,6 +455,31 @@ h3 {
     position: relative;
     left: 0px;
     width: 10vw;
+}
+
+[braking]::after {
+    position: absolute;
+    content: attr(braking);
+    position: absolute;
+    right: -10px;
+    font-size: 1.5vw;
+    top: 18%;
+    opacity: 0;
+    transition: 1s;
+}
+
+[braking]:hover::after {
+    opacity: 100%;
+    right: 0px;
+}
+
+.braking_progress { 
+  position: absolute; 
+  height: 100%;
+  transition: width .4s ease-in; 
+  width: 30%;
+  background-color: white;
+  z-index: 1;
 }
 
 .car_stats_braking_bar {
@@ -466,6 +517,46 @@ h3 {
     width: 10vw;
 }
 
+[acceleration]::after {
+    position: absolute;
+    content: attr(acceleration);
+    position: absolute;
+    top: 2vw;
+    font-size: 1.5vw;
+    opacity: 0;
+    transition: 1s;
+    left: 10px;
+}
+
+[acceleration]:hover::after {
+    opacity: 1;
+    left: 0px;
+}
+
+#a {
+
+}
+
+#b {
+
+}
+
+
+
+#a:hover ~ #b{
+    top: 10px;
+    opacity: 1;
+}
+
+.acceleration_progress { 
+  position: absolute; 
+  height: 100%;
+  transition: width .4s ease-in; 
+  width: 25%;
+  background-color: white;
+  z-index: 1;
+}
+
 .car_stats_acceleration_bar {
     position: absolute;
     right: .8vw;
@@ -499,6 +590,34 @@ h3 {
     position: relative;
     left: 0px;
     width: 10vw;
+}
+
+.car_stats_traction_container::after {
+    top: 10px;
+}
+
+[traction]::after {
+    content: attr(traction);
+    position: absolute;
+    right: -10px;
+    font-size: 1.5vw;
+    top: 18%;
+    transition: 1s;
+    opacity: 0;
+}
+
+[traction]:hover::after {
+    opacity: 1;
+    right: 0px;
+}
+
+.traction_progress { 
+  position: absolute; 
+  height: 100%;
+  transition: width .4s ease-in; 
+  width: 65%;
+  background-color: white;
+  z-index: 1;
 }
 
 .car_stats_traction_bar {
