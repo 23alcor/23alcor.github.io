@@ -1,12 +1,13 @@
 /* Center Box */
 .center_box {
-	position: absolute;
+  margin: auto;
 	height: 600px;
-	width: 80%;
+	width: 1000px;
 	background-color: yellow;
-	left: 10%;
-	top: 15%;
+  overflow: auto;
 }
+
+/*visible hidden scroll auto*/
 
 .title_box {
 	position: relative;
@@ -32,8 +33,9 @@
 .R_box {
   position: relative;
   height: 100%;
-  width: 20%;
+  width: 200px;
   float: left;
+  background-color: red;
 }
 
 .R {
@@ -42,11 +44,19 @@
   width: 100%;
 }
 
+.R_box_enlarged {
+  position: absolute;
+  height: 150%;
+  width: 150%;
+  overflow: visible;
+}
+
 .A_box {
   position: relative;
   height: 100%;
-  width: 20%;
+  width: 200px;
   float: left;
+  background-color: blue;
 }
 
 .A {
@@ -58,8 +68,9 @@
 .L_box {
   position: relative;
   height: 100%;
-  width: 20%;
+  width: 200px;
   float: left;
+  background-color: green;
 }
 
 .L {
@@ -71,8 +82,9 @@
 .P_box {
   position: relative;
   height: 100%;
-  width: 20%;
+  width: 200px;
   float: left;
+  background-color: yellow;
 }
 
 .P {
@@ -86,6 +98,7 @@
   height: 100%;
   width: 20%;
   float: left;
+  background-color: purple;
 }
 
 .H {
@@ -135,6 +148,10 @@ canvas {
 
 .sidenav a:hover {
   color: #f1f1f1;
+}
+
+a:hover {
+  background-color: gray;
 }
 
 .sidenav .closebtn {
