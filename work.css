@@ -1,0 +1,13 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgba(17,17,17,255);
+}
+
+header {
+  display: flex;
+  color: white;
+}
+
+#hed1{
+  text-align: center;
+}
